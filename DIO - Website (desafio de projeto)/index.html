@@ -1,0 +1,170 @@
+<html>
+
+<head>
+    <title> Desafio de projeto </title>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1 id="inicio">Primeiros passos com HTML</h1>
+    </div>
+    <hr />
+    <div style="text-align: center;">
+        <blockquote>I've got to tell you, the Internet is a place you go when you want to turn your brain on, and television is a place you go when you want to turn your brain off. - Steve Jobs</blockquote>
+    </div>
+    <h2><strong><u>Índice</u></strong></h2>
+    <ul>
+        <li><a href="#historia">História da Web</a></li>
+        <li><a href="#comunicacao">Comunicação Cliente x Server</a>
+            <ol>
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a href="#servers">Servers</a></li>
+                <li><a href="#linguagens">Linguagens de Programação</a></li>
+            </ol>
+        </li>
+        <li><a href="#pratica">HTML na prática</a>
+        <ol>
+            <li><a href="#html">Estrutura básica de um HTML</a></li>
+            <li><a href="#tags">Tags</a></li>
+            <li><a href="#atributos">Atributos</a></li>
+        </ol>
+    </li>
+        <li><a href="#referencias">Referências</a></li>
+
+    </ul>
+    <h2 id="historia"><u>História da Web</u><sup><a href="#1">[1]</a></sup></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <div style="text-align:justify;">
+        <font face="Verdana">
+            <p> A <mark>World Wide Web</mark>, comumente conhecida como Web, foi concebida por Tim Berners-Lee em 1989.
+                Sua criação visava permitir o compartilhamento de informações em documentos interligados através de
+                hipertexto.
+                Em 1991, Berners-Lee lançou o primeiro site e servidor web no CERN. O surgimento de navegadores como o
+                Mosaic,
+                em 1993, popularizou o acesso à Web.
+                O boom da dot-com no final dos anos 90 viu um rápido crescimento de empresas baseadas na Web.
+                A explosão das mídias sociais e serviços online no início dos anos 2000 mudou drasticamente a interação
+                online.
+                A Web <del>1.0</del> <ins>2.0</ins> emergiu como uma fase de interatividade e colaboração, com sites
+                como Wikipedia e YouTube. O advento
+                de tecnologias como <abbr title="Hypertext Markup Language">HTML5</abbr> e <abbr
+                    title="Cascading Style Sheets">CSS</abbr><sub>3</sub> permitiu uma experiência mais rica na Web. O
+                surgimento de dispositivos móveis
+                e aplicativos impulsionou o uso da Web móvel. A Web Semântica, uma visão de dados interconectados e
+                significado
+                compreensível por máquina, promete uma Web mais inteligente no futuro.
+            </p>
+            <h2 id="comunicacao"><u><strong>Comunicação Cliente x Server</strong></u><sup><a href="#2">[2]</a></sup></h2>
+            <small><a href="#inicio">(Voltar)</a></small>
+            <ul>
+                <ol>
+                    <li>
+                        <h3 id="clientes">O que são clientes?
+                        </h3>
+                        <p>
+                            Em um contexto cliente-servidor, <mark>os clientes são dispositivos ou softwares que solicitam
+                            serviços ou recursos a um servidor.</mark>. Eles podem ser navegadores da web, aplicativos móveis,
+                            programas de email, entre outros. Os clientes enviam solicitações ao servidor, que processa
+                            essas solicitações e envia de volta as respostas correspondentes. Geralmente, os clientes
+                            interagem com os servidores por meio de protocolos de comunicação como HTTP, FTP ou SMTP. Os
+                            clientes podem estar distribuídos em diferentes locais geográficos e se conectam aos
+                            servidores através da Internet ou de redes locais.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 id="servers">
+                            O que são servers?
+                        </h3>
+                        <p>
+                            Servidores são computadores ou sistemas de software que fornecem serviços, recursos ou dados
+                            para os clientes em um ambiente cliente-servidor. Eles respondem às solicitações dos
+                            clientes, processando-as e enviando as respostas correspondentes. Os servidores são
+                            projetados para serem confiáveis, escaláveis e capazes de lidar com múltiplas solicitações
+                            simultaneamente. Eles podem fornecer uma variedade de serviços, como hospedagem de sites,
+                            armazenamento de dados, gerenciamento de emails, entre outros.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 id="linguagens">Linguagens de programação</h3>
+                        <p>As linguagens de programação desempenham um papel crucial no contexto cliente-servidor,
+                            permitindo que os desenvolvedores criem aplicativos e serviços que interagem com os clientes
+                            e servidores. No lado do cliente, linguagens como <mark>JavaScript</mark> são usadas para criar
+                            interações dinâmicas e responsivas em navegadores web, enquanto em dispositivos móveis,
+                            linguagens como Swift para iOS e Kotlin para Android são comuns. No lado do servidor,
+                            linguagens como Python, Java, PHP e Ruby são usadas para criar a lógica de negócios e
+                            manipular dados, além de interagir com bancos de dados. Essas linguagens ajudam a garantir a
+                            comunicação eficiente e segura entre os clientes e servidores, possibilitando o
+                            desenvolvimento de aplicativos web e serviços robustos e escaláveis.</p>
+                    </li>
+                </ol>
+            </ul>
+            <h2 id="pratica"><u>HTML na prática</u><sup><a href="#4">[3]</a></sup></h2>
+            <small><a href="#inicio">(Voltar)</a></small>
+            <ul>
+                <li>
+                    <h3 id="html">Estrutura básica de um HTML </h3>
+                    <ol>
+                        <li>O elemento &lt;html&gt é o contêiner raiz de todo o documento HTML. Todos os outros
+                            elementos HTML devem estar contidos dentro deste elemento.</li>
+                        <li>O elemento &lt;head&gt contém metadados, como o título da página, links para folhas de
+                            estilo CSS, scripts JavaScript, etc.</li>
+                        <li>O elemento &lt;body&gt contém todo o conteúdo visível da página, como texto, imagens, links,
+                            formulários, etc. É dentro do
+
+                            <body> que o conteúdo principal da página é colocado.
+                        </li>
+                    </ol>
+                <li>
+                    <h3 id="tags">TAGS</h3>
+                    <p>Tags como &lt;h1&gt para títulos, &lt;p&gt para parágrafos, &lt;img&gt para imagens, &lt;a&gt
+                        para links, entre outras, são usadas dentro do &lt;body&gt para estruturar e apresentar o
+                        conteúdo.</p>
+                </li>
+                <li>
+                    <h3 id="atributos">Atributos</h3>
+                    <ul>
+                        <li>href: Usado dentro de &lt;a&gt, o atributo <strong>href</strong> especifica o destino do
+                            link, que pode ser uma URL para outra página, um endereço de e-mail ou um identificador
+                            interno na mesma página.</li>
+                        <li> src: Usado dentro de &lt;img&gt, o atributo <strong>src</strong> especifica o caminho para
+                            a imagem que será exibida na página.</li>
+                        <li> id e class: Esses atributos são usados para identificar elementos específicos dentro da
+                            página. O atributo <strong>id</strong> é único para cada elemento, enquanto o atributo
+                            <strong>class</strong> pode ser aplicado a vários elementos para aplicar estilos CSS ou
+                            comportamentos JavaScript.</li>
+                    </ul>
+                </li>
+            </ul>
+
+        </font>
+
+        <h2 id="referencias"><u>Referências</u></h2>
+        <small><a href="#inicio">(Voltar)</a></small>
+        <ul>
+            <li id="1">
+                <a href="https://www.hostinger.com.br/tutoriais/a-historia-da-internet#ARPAnet_e_a_Origem_da_Internet_em_1969"
+                    target="_blank">
+                    [1]: ARPAnet e a Origem da Internet em 1969 (Hostinger Tutoriais)</a>
+            </li>
+            <li id="2">
+                <a href="https://www.controle.net/faq/cliente-servidor-uma-estrutura-para-a-computacao-centralizada#:~:text=Um%20servidor%20%C3%A9%20um%20recurso,solicita%20esses%20servi%C3%A7os%20e%20recursos."
+                    target="_blank">[2]: Cliente e servidor (Controle Net)</a>
+            </li>
+            <li id="3">
+                <a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html">[3]: Estrutura básica
+                    HTML</a>
+            </li>
+            <li id="4">
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
+                    [4]: Elementos básicos HTML
+                </a>
+            </li>
+            <li id="5">
+                <a href="http://tics.ifsul.edu.br/matriz/conteudo/disciplinas/lpw/ua/3.html">[5]: Linguagens de programação
+                    para Web</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
